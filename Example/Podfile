@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WIFLEX_Example' do
+  pod 'WIFLEX', :path => '../'
+
+  target 'WIFLEX_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

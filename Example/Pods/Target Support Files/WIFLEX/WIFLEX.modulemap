@@ -1,0 +1,6 @@
+framework module WIFLEX {
+  umbrella header "WIFLEX-umbrella.h"
+
+  export *
+  module * { export * }
+}
